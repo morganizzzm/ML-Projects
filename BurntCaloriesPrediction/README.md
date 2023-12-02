@@ -1,19 +1,25 @@
 Burnt Calories Prediction Project
+---------------------------------
 
 A machine learning project that predicts the number of calories burned based on user data and activities.
+
 -----------------------------------------------------------
 The Burnt Calories Prediction Project is a machine learning application that estimates the number of calories a person 
 burns based on their personal data and physical activities. It uses a predictive model trained on a dataset of individuals 
 with their activity levels and corresponding calorie expenditure.
+
 ------------------------------------------------------------
 Features
+------------------------------------------------------------
 
 Predicts burnt calories based on user inputs.
 Provides insights into factors affecting calorie burn.
 Easy-to-use user interface (if applicable).
+
 ------------------------------------------------------------    
 
 Getting Started
+-----------------------------------------------------------
 
 Follow these instructions to set up and run the Burnt Calories Prediction Project on your local machine.
                            
@@ -38,11 +44,13 @@ if you don't know your BMI you can use function def calculate_my_BMI(weight, hei
 
                             
 Data Sources
-
+----------------------------------------------------------------
+The data is taken from Kaggle
 https://www.kaggle.com/datasets/fmendes/fmendesdat263xdemos/data
 
 -------------------------------------------------------------------
 Data Preprocessing
+--------------------
 
 Merge the Data:
 Since these datasets are connected by a common field, user_id, you may want to merge them into a single DataFrame for analysis.
@@ -66,6 +74,7 @@ After training the model, we use it to make predictions on the testing set.
 
 --------------------------------------------------------------------                            
 Evaluation
+-------------------------------------------------------------------
 
 Finally, we evaluate the model's performance using a commonly used metric for regression tasks: the Mean Absolute Error (MAE)
 The results for the model on the test is:
