@@ -56,7 +56,8 @@ Merge the Data:
 Since these datasets are connected by a common field, user_id, you may want to merge them into a single DataFrame for analysis.
 
 Feature Engineering:
-We added the new feature: BMI (Body Mass Index) using the weight and height columns by the formula -- weight / ((height / 100) ** 2)
+We added the new feature: BMI (Body Mass Index) using the weight and height columns by the formula -- 
+weight / ((height / 100) ** 2)
 
 Data Splitting
 We split our preprocessed dataset into two subsets: the training set and the testing set. 
